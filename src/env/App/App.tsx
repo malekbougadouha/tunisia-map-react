@@ -6,7 +6,7 @@ import TunisiaMap from "@/lib/TunisiaMap/TunisiaMap";
 const App: FC = () => {
     return (
         <div>
-            <TunisiaMap />
+            <TunisiaMap width={200} strokeWidth={1} fillColor="#16f877" />
         </div>
     );
 };
